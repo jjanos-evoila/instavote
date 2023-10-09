@@ -21,3 +21,7 @@ commonLabels:
 
 commonAnnotations:
   supported-by: "yi"
+
+configMapGenerator:
+  - name: vote-options
+    env: options.env
