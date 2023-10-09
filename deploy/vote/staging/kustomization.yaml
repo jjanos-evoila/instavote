@@ -7,4 +7,17 @@ patchesStrategicMerge:
 
 replicas:
   - name: vote
-    count: 8
+    count: 7
+
+images:
+  - name: schoolofdevops/vote
+    newTag: v4
+
+namespace: instavote
+
+commonLabels:
+  project: instavote
+  env: staging
+
+commonAnnotations:
+  supported-by: "yi"
