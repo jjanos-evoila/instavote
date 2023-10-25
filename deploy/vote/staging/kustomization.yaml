@@ -8,8 +8,8 @@ replicas:
 - name: vote
   count: 7
 images:
-  - name: shungli/vote
-    newTag: v9 # {"$imagepolicy": "flux-system:vote:tag"}
+- name: shungli/vote
+  newTag: main-4a1ce53c-1698260747 # {"$imagepolicy": "flux-system:vote:tag"}
 namespace: instavote
 commonLabels:
   project: instavote
