@@ -11,7 +11,7 @@ images:
 - name: schoolofdevops/vote
   newName: shungli/vote
   #image: shungli/vote:main-f0988e5f-1698265460 # {"$imagepolicy": "flux-system:vote"}
-  newTag: main-5a94bafe-1698266200 # {"$imagepolicy": "flux-system:vote:tag"}
+  newTag: main-ec63d099-1698303823 # {"$imagepolicy": "flux-system:vote:tag"}
 namespace: instavote
 commonLabels:
   project: instavote
